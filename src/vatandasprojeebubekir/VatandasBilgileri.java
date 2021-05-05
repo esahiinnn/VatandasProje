@@ -40,4 +40,10 @@ public class VatandasBilgileri {
         this.telefon = telefon;
     }
 
+    @Override
+    public String toString() {
+        return "Isim Soyisim = " + isimSoyisim +
+                " Adres = " + adres +
+                " Telefon = " + telefon;
+    }
 }
